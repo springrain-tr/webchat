@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/client/client.vcxproj" Id="513396a7-d723-4133-a55e-eb54ee93469b" />
+    <Project Path="src/server/server.vcxproj" Id="4b7a2f61-8c3d-4e59-b0a2-6d1f9c5e8a37" />
+  </Folder>
+</Solution>
