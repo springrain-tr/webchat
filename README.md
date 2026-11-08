@@ -5,24 +5,6 @@
 - **server**：单线程 + `select()`，一条线程同时服务多个客户端，Windows / Linux 均可编译。
 - **client**：Windows 控制台界面，自绘聊天区、分割线和输入行，支持中文输入与显示（统一 UTF-8），昵称登录、断线提示。
 
-## 目录结构
-
-```
-webchat/
-├─ webchat.slnx              # Visual Studio 解决方案（client + server）
-├─ .gitignore
-├─ build/                    # 构建产物，已被 git 忽略
-└─ src/
-   ├─ client/                # Windows 客户端
-   │  ├─ client.cpp
-   │  ├─ client.vcxproj
-   │  └─ client.vcxproj.filters
-   └─ server/                # 跨平台服务端
-      ├─ server.cpp
-      ├─ server.vcxproj
-      └─ Makefile
-```
-
 ## 编译
 
 ### Windows（Visual Studio）
